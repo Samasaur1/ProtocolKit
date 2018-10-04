@@ -6,10 +6,3 @@ public protocol Copiable {
     /// - Returns: A new instance that is a copy of the calling object.
     func copy() -> ReturnType
 }
-class Class: Copiable {
-    func copy() -> Class {
-        <#code#>
-    }
-    
-    
-}
